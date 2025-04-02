@@ -17,16 +17,16 @@ run **git clone https://github.com/gusemil/wargametracker-laravel.git** on your 
 ### 3) Install Composer 
 Inside the root of the WarGameTracker repository: run the command: **composer install** on your terminal of choice
 
-### 4) create your .env
+### 4) Create your .env file
 Create a .env file to the repository root and copy the contents of **.env.example**
 
-### 5) Modify .env by changing these values to your own
-#DB_CONNECTION=pgsql <br>
-#DB_HOST=127.0.0.1 <br>
-#DB_PORT= <br>
-#DB_DATABASE= <br>
-#DB_USERNAME= <br>
-#DB_PASSWORD= <br>
+### 5) Modify .env by changing these values to your own (and any other values you wish
+DB_CONNECTION=pgsql <br>
+DB_HOST=127.0.0.1 <br>
+DB_PORT= <br>
+DB_DATABASE= <br>
+DB_USERNAME= <br>
+DB_PASSWORD= <br>
 
 ### 6) Generate an app key
 Inside the root of the WarGameTracker repository: run **artisan key:generate**, in your terminal of choice, to generate an app key for Laravel (this modifies the **.env** file)
