@@ -1,7 +1,7 @@
 # wargametracker-laravel
  
 ## I) Introduction
-WarGameTracker-Laravel is an enhanced version of https://github.com/gusemil/wargame-tracker-php-1.0 rebuilt in Laravel (PHP) <br>
+WarGameTracker-Laravel is an enhanced version of https://github.com/gusemil/wargame-tracker-php-1.0 rebuilt in Laravel 11 (PHP 8.4) <br>
 
 WarGameTracker is a PHP(Laravel)/SQL(PostgreSQL) based CRUD site for tracking stats and matches of nerdy war games using the ELO scoring system.
 
